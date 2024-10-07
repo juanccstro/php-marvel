@@ -29,59 +29,77 @@ curl_close($ch);
 </head>
 
 <main>
-<head>
-<h2>La próxima película de Marvel</h2>
-	<section>
-		<img src="<?= $data['poster_url']; ?>" width="200px" alt="Poster de <?= $data['title']; ?>" style="border-radius: 14px" />
-	</section>
 
-	<hgroup>
-		<h3><?= $data['title']; ?> se estrena en <?= $data['days_until']; ?> días </h3>
-		<p>Fecha de estreno: <?= $data['release_date']; ?> </p>
-		<p>La siguiente película es: <?= $data['following_production']['title']; ?> </p>
-	</hgroup>
-     <footer>
-		<p>2024 Juan C. Castro</p>
-	 </footer>
+	<head>
+		<h2>La próxima película de Marvel</h2>
+		<section>
+			<img src="<?= $data['poster_url']; ?>" width="200px" alt="Poster de <?= $data['title']; ?>" style="border-radius: 14px" />
+		</section>
+
+		<hgroup>
+			<h3><?= $data['title']; ?> se estrena en <?= $data['days_until']; ?> días </h3>
+			<p>Fecha de estreno: <?= $data['release_date']; ?> </p>
+			<p>La siguiente película es: <?= $data['following_production']['title']; ?> </p>
+		</hgroup>
 	</head>
 </main>
+<footer>
+	<p>2024 Juan C. Castro</p>
+</footer>
 
 <style>
-	:root{
+	:root {
 		color-scheme: light dark;
 	}
 
-	body{
+	html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		justify-content: space-between;
+	}
+
+	main {
+		flex: 1;
 		display: grid;
 		place-content: center;
 	}
 
-	h2{
+	h2 {
 		justify-content: center;
 		text-align: center;
 	}
 
-	section{
+	section {
 		display: flex;
 		justify-content: center;
 		text-align: center;
 	}
 
-	hgroup{
+	hgroup {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
 	}
 
-	img{
+	img {
 		margin: 0 auto;
 		box-shadow: 3px 2px 6px 2px #1C242E;
 	}
 
-	footer p{
+	footer p {
 		justify-content: center;
 		text-align: center;
 		color: #7B8495;
+		padding: 10px;
 	}
 </style>
