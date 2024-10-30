@@ -21,7 +21,7 @@ curl_close($ch);
 <head>
 	<meta charset="UTF-8" />
 	<title>La próxima película de Marvel</title>
-	<meta name="deacription" content="La próxima película de Marvel" />
+	<meta name="description" content="La próxima película de Marvel" />
 	<meta name="viewport" content="whidth=device-width, initial-scale=1.0" />
 	<link
 		rel="stylesheet"
