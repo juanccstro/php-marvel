@@ -7,6 +7,11 @@
 ## 📝 Descripción
 Proyecto muy simple en PHP que consulta la API de **WhenIsTheNextMCUFilm.com** para mostrar la próxima película del Universo Marvel.
 
+## 🌐 Demo Online
+Puedes ver la demo desplegada en Zeabur aquí:
+
+👉 **https://php-marvel.juanccstro.zeabur.app**
+
 ## 🚀 Uso
 1. Clona el repositorio:
    ```bash
