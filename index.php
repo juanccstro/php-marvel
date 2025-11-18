@@ -71,7 +71,7 @@ function diasRestantes($dias) {
     <footer>
         <p>
             © <?= date('Y'); ?> Juan C. Castro ·
-            <a href="https://github.com/tunombre" target="_blank">GitHub</a>
+            <a href="https://github.com/juanccstro" target="_blank">GitHub</a>
         </p>
     </footer>
 
