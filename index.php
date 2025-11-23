@@ -5,7 +5,6 @@ define('API_URL', 'https://whenisthenextmcufilm.com/api');
 $ch = curl_init(API_URL);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $result = curl_exec($ch);
-curl_close($ch);
 
 $data = json_decode($result, true);
 
