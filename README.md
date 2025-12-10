@@ -24,5 +24,4 @@ Puedes ver la demo desplegada en Zeabur aquí:
 
 Puedes editar el HTML/CSS o ampliar la lógica para mostrar más datos de la API.
 
-<img width="1440" height="1036" alt="imagen" src="https://github.com/user-attachments/assets/59d4bd46-25a4-446d-adce-61c07648c13a" />
-
+<img width="1440" height="1068" alt="screely-1765357413090" src="https://github.com/user-attachments/assets/705209b9-50d8-44aa-a0a4-c981b6e43b86" />
